@@ -1,5 +1,6 @@
 body{
 	background-color: black;
+ 	cursor: url(flash.png), auto;
 }
 h1{
 font-family: "ht-neon", sans-serif;
@@ -167,5 +168,5 @@ Text size: 100px ;
 color: 	#FDDA0D;
 text-align: center;
 }
-	
+
 
