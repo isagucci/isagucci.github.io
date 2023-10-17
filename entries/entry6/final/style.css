@@ -1,15 +1,9 @@
 body{
 	background-color: grey;
 }
-@media (max-width:767px){
-	body{
-		font-size: 20px;	
-		
-	}
-}
 
 .peoplecontainer{
-	display: inline-grid;
+	display: grid;
 	grid-template-columns: repeat(2, 1fr) ;
 	gap: 0px;
 	position: relative;
@@ -20,7 +14,7 @@ body{
 	z-index: 1;
 }
 .spotlight{
-	display: inline-grid;
+	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	position: relative;
 }
@@ -193,3 +187,11 @@ text-align: center;
 }
 
 
+
+
+/*@media (max-width:767px){
+	body{
+	display: block;	
+		
+	}
+}*/
