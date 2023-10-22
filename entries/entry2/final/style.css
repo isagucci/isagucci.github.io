@@ -1,17 +1,11 @@
 body {
-	background-color:black ;
+	background-color:#FFD700 ;
 	margin: 0;
 }
 .grid-container{
 display: grid;
-grid-template-columns: repeat(8, 1fr);
-grid-gap: 27px
-}
-.circle{
-border-radius: 50%;
-width: 100px;
-height: 100px;
-background: ghostwhite;
+grid-template-columns: repeat(11, 1fr);
+grid-gap: 5px
 }
 .circle-container {
   	display:grid;
@@ -24,6 +18,15 @@ background: ghostwhite;
 }
   .circle {
    border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   background: #4A5D23;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+  .circle11 {
+   border-radius: 50%;
    width: 100px;
    height: 100px;
    background: ghostwhite;
@@ -32,7 +35,8 @@ background: ghostwhite;
    align-items: center;
  }
 
-.circle p {
+
+.circle11 p {
   font-family: Futura;
   color: black;
   font-size: 30px;
